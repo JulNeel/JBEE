@@ -1,0 +1,101 @@
+
+.home{
+	font-family: $font-primary;
+	font-weight:400;
+	main li {
+		margin:0;	
+	}
+
+}
+.edito-thumbnail{
+	overflow: hidden;
+	display:block;
+	img{
+		max-width: 200px;
+		max-height: 500px;
+	}
+}
+#main-content-wrap {
+	
+	.home-section {
+		padding: 40px 0 40px !important;
+		margin-bottom: 0 !important;
+		
+		
+		.h1, h1{			
+			font-size:3.5rem;
+		}
+	}
+
+	#en-quelques-mots {	
+		font-size: 1.3em;
+		font-weight:300;
+
+	}
+	#prestations{
+		
+	}
+	#prestations, #portfolio{
+		.post-title{
+			color:$white;
+		}
+	}
+	#portfolio, #prestations {	
+		.widgettitle{
+			font-size:1.5rem;
+		}
+	}
+	#me-contacter{
+		
+	}
+	#en-quelques-mots, #votre-projet-en-3-etapes, #me-contacter{
+		background: $white;
+	}
+
+	#feed-boxes {
+		background-color: $white;
+		padding: 50px 0;
+
+
+		a{
+
+			font-weight:400;
+		}
+
+		.feed-list{
+			padding:0;
+
+		}
+		.feed-item{
+			border: 1px solid $gray-lighter;
+
+		}
+		.inner {
+			
+			border-bottom:5px solid $gray-dark;
+		
+		}
+		h1 {
+			color: $gray-dark;
+		}
+		h2{
+			color: $gray;
+			}
+
+		.fbpost{
+			max-width:100%;
+			text-overflow: ellipsis;
+			word-wrap: break-word;
+			overflow-wrap: break-word;
+			word-break: break-all;
+		}
+
+		.scrollbar{
+			height:400px;
+			overflow:hidden;
+		}
+	}
+
+}
+
+

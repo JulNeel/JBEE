@@ -1,0 +1,142 @@
+
+
+$font-primary:  'Oswald', sans-serif;
+
+.l-f{
+  font-weight:300;
+  font-family: $font-primary, sans-serif;
+}
+.md-f{
+  font-weight:600;
+  font-family: $font-primary, sans-serif;
+}
+.b-f{
+  font-weight:600;
+  font-family: $font-primary, sans-serif;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  text-rendering: optimizelegibility;
+  font-weight: normal;
+  text-transform:uppercase;
+  font-family:$font-primary;
+  font-weight: 700;
+  
+  /*
+  if you're going to use webfonts, be sure to check your weights
+  http://css-tricks.com/watch-your-font-weight/
+  */
+
+  /* removing text decoration from all headline links */
+  a {
+    text-decoration: none;
+  }
+}
+
+
+
+.emphase {
+
+}
+blockquote  {
+  font-family: $font-primary;
+  color:$gray;
+  @extend .blockquote;
+  
+  &:before{
+    content:'\f10d';
+    transform: scale(1, -1);
+    font-family: FontAwesome;
+    float:left;
+    margin-right:10px;
+    font-size:2em;
+    line-height: 0.5em;
+  }
+}
+
+ul{
+  list-style-type: square;
+  padding-left: 1em;
+  text-align: left;
+  li{
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+
+
+@include media-breakpoint-up(sm) {
+  h1, .h1 {
+    font-size:2rem;
+  }
+
+  h2, .h2 {
+    font-size:1.75rem;
+  }
+
+  h3, .h3 {
+    font-size:1.5rem;
+  }
+
+  h4, .h4 {
+    font-size:1.25rem;
+  }
+
+  h5, .h5 {
+    font-size:1.12rem;
+  }
+
+}
+
+@include media-breakpoint-up(md) {
+    h1, .h1 {
+    font-size:2rem;
+  }
+
+  h2, .h2 {
+    font-size:1.75rem;
+  }
+
+  h3, .h3 {
+    font-size:1.4rem;
+  }
+
+  h4, .h4 {
+    font-size:1.2rem;
+  }
+
+  h5, .h5 {
+    font-size:1.12rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  h1, .h1 {
+    font-size:2.5rem;
+  }
+
+  h2, .h2 {
+    font-size:2rem;
+  }
+
+  h3, .h3 {
+    font-size:1.75rem;
+  }
+
+  h4, .h4 {
+    font-size:1.5rem;
+  }
+
+  h5, .h5 {
+    font-size:1.25rem;
+  }
+}

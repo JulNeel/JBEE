@@ -1,0 +1,36 @@
+
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: $brand-primary !important;
+  color:$brand-primary !important;
+  &:hover, &:active, &:focus {
+  	background: $white;
+  	border-color: darken($brand-primary,10%) !important;
+  	color: darken($brand-primary,10%) !important;
+  }
+}
+
+
+
+.btn-fb{
+	background-color:$fb-color;
+	&:hover, &:active, &:focus{
+	    background-color:darken($fb-color, 10%) !important;
+	    border-color:darken($fb-color, 10%) !important;
+	}
+}
+.btn-tw{
+	background-color:$tw-color;
+	&:hover, &:active, &:focus{
+	    background-color:darken($tw-color, 10%) !important;
+	    border-color:darken($tw-color, 10%) !important;
+	}
+}
+.btn-rss{
+	background-color:$rss-color;
+	&:hover, &:active, &:focus{
+	    background-color:darken($rss-color, 10%) !important;
+	    border-color:darken($rss-color, 10%) !important;
+	}
+}

@@ -1,0 +1,99 @@
+/*  div wrapped around entire staff list  */
+.staff-member-listing .staff-member {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: thin dotted #aaa;
+  float: left;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2em; }
+  .staff-member-listing .staff-member .last {
+    padding-bottom: 0;
+    border: none; }
+  .staff-member-listing .staff-member a {
+    float: left;
+    text-decoration: none;
+    color: #2b2b2b; }
+  .staff-member-listing .staff-member h3.staff-member-name {
+    margin: 0.1em 0;
+    font-size: 18px;
+    font-weight: bold; }
+  .staff-member-listing .staff-member .staff-member-photo-wrap {
+    position: relative;
+    overflow: hidden;
+    height: auto; }
+    .staff-member-listing .staff-member .staff-member-photo-wrap img.staff-member-photo {
+      float: left;
+      width: 100%;
+      margin: 0; }
+    .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap {
+      float: left;
+      position: absolute;
+      bottom: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      transition: bottom 0.25s; }
+      .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap h4.staff-member-position {
+        margin: 0 0 0.5em 0;
+        font-size: 1.3em;
+        font-weight: normal; }
+      .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .staff-member-bio {
+        float: left; }
+        .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .staff-member-bio p {
+          color: #333;
+          font-size: 16px;
+          line-height: 1.1em;
+          margin: 0; }
+      .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .social-box {
+        float: left;
+        width: 100%; }
+        .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .social-box .facebook:before {
+          content: ""; }
+        .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .social-box .twitter:before {
+          content: ""; }
+        .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .social-box .mail:before {
+          content: ""; }
+        .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .social-box .zoom:before {
+          content: ""; }
+        .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .social-box a:hover {
+          color: #aed517; }
+        .staff-member-listing .staff-member .staff-member-photo-wrap .staff-member-info-wrap .social-box span {
+          font-size: 32px;
+          line-height: 32px;
+          width: 32px;
+          height: 32px;
+          overflow: hidden;
+          display: block;
+          text-decoration: none;
+          float: left;
+          margin-left: 5px; }
+    .staff-member-listing .staff-member .staff-member-photo-wrap:hover .staff-member-info-wrap {
+      bottom: 0;
+      transition: all 0.25s; }
+
+/*  div wrapped around entire staff list  */
+/*  div wrapped around each staff member  */
+div.staff-member
+div.staff-member a:hover img {
+  opacity: 1; }
+
+@media screen and (min-width: 846px) {
+  .staff-member-listing div.staff-member {
+    width: 47%;
+    margin: 1.5%; }
+
+  div.staff-member {
+    height: 580px; } }
+/* Clearfix for div.staff-member */
+div.staff-member:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/* Clearfix for <= IE7 */
+* html div.staff-member {
+  height: 1%; }
+
+div.staff-member {
+  display: block; }

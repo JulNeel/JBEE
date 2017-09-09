@@ -1,0 +1,42 @@
+.sidebar {
+
+	a{
+		font-family:$font-primary;
+		font-style:normal;
+		color:$body-color;
+		
+		&:hover{
+			color:$brand-primary;
+		}
+	}
+	ul{
+ 		list-style:none;
+ 		padding-left: 0em;
+ 		li{
+ 			border-bottom:1px solid $gray-lighter;
+ 		}
+ 		
+	}
+}
+
+	
+
+.widget-prestations, .widget-process {
+	font-family: $font-primary;
+	background: $white;
+	color:$body-color;
+	img {
+	margin:auto;	
+	}
+}
+
+.widget-prestations {
+	img {
+	max-width: 75%;
+	}
+}
+.widget-process {
+	img {
+	max-width: 100%;
+	}
+}

@@ -1,0 +1,39 @@
+.footer{
+	background-color: $secondary-darkest;
+	color :$secondary-light;
+	a{
+		color:$white;
+		font-family:$font-primary;
+		&:hover{
+			color:$brand-primary;
+		}
+	}
+	input[type="date"], input[type="datetime-local"], input[type="email"], input[type="number"], input[type="password"], input[type="search-md"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], textarea.md-textarea {
+
+	  border-bottom:1px solid $secondary-lightest;
+	  border-left:none;
+		color:$secondary-lightest;
+	  background:none;
+	}
+
+	.widget{
+			flex-grow: 1;
+			flex-shrink:1;
+			flex-basis:1;
+	}
+	.site-info{
+		border-top: 1px solid $secondary-light;
+	}
+
+	.follow-box {
+		input{
+			color: #eeeeee;
+		}
+
+		.contact-icon{
+			.btn {
+			
+			}
+		}
+	}
+}

@@ -1,0 +1,616 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jbee\n"
+"POT-Creation-Date: 2017-07-18 11:52+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jul Neel\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: lib\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: templates\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#: archive-team-member.php:5 index.php:5 search.php:5
+msgid "Sorry, no results were found."
+msgstr "*Désolé, rien n'a été trouvé."
+
+#: functions.php:29
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: home-portfolio.php:11
+msgid "All"
+msgstr "Tous"
+
+#: home-portfolio.php:86
+msgid "Visit the site"
+msgstr "Visiter le site"
+
+#: home-portfolio.php:135
+msgid "Client : "
+msgstr "Client :"
+
+#: home-portfolio.php:142
+msgid "Tags : "
+msgstr "Mots-clés :"
+
+#: lib/customizer.php:52
+msgid "My contact options"
+msgstr "Mes informations de contact"
+
+#: lib/customizer.php:55
+msgid "Allows you to display your contact informations in your site"
+msgstr "Vous permet d'afficher vos information de contact sur le site"
+
+#: lib/customizer.php:60
+msgid "Edito"
+msgstr "Edito"
+
+#: lib/customizer.php:63
+msgid "Allows you to display an edito section in the front page of your site"
+msgstr "Vous permet d'afficher un édito sur la page d'accueil de votre site"
+
+#: lib/customizer.php:68
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: lib/customizer.php:71
+msgid "Allows you to choose the pages you want to include in the slideshow"
+msgstr ""
+"Vous permet de choisir les pages que vous voulez inclure dans le slideshow"
+
+#: lib/customizer.php:82 lib/customizer.php:87 lib/customizer.php:93
+msgid "Your name"
+msgstr "Votre nom"
+
+#: lib/customizer.php:98
+msgid "Your contact address"
+msgstr "Votre adresse"
+
+#: lib/customizer.php:104
+msgid "Your postal code"
+msgstr "Votre code postal"
+
+#: lib/customizer.php:109
+msgid "Your city"
+msgstr "Votre ville"
+
+#: lib/customizer.php:114
+msgid "Your phone number"
+msgstr "Votre numéro de téléphone"
+
+#: lib/customizer.php:119
+msgid "Your mail address"
+msgstr "Votre adresse mail"
+
+#: lib/customizer.php:186
+msgid "The small version of your logo"
+msgstr "La petite version de cotre logo"
+
+#: lib/customizer.php:187 lib/customizer.php:197 lib/customizer.php:289
+msgid "upload edito's background image"
+msgstr "envoyer l'image d'arrière plan de la section édito"
+
+#: lib/customizer.php:196
+msgid "The mini version of your logo"
+msgstr "La version miniature de votre logo"
+
+#: lib/customizer.php:203
+msgid "name"
+msgstr "nom"
+
+#: lib/customizer.php:208
+msgid "contact address"
+msgstr "adresse"
+
+#: lib/customizer.php:214
+msgid "postal code"
+msgstr "code postal"
+
+#: lib/customizer.php:220
+msgid "city"
+msgstr "ville"
+
+#: lib/customizer.php:226
+msgid "phone"
+msgstr "téléphone"
+
+#: lib/customizer.php:232
+msgid "mail"
+msgstr "mail"
+
+#: lib/customizer.php:238
+msgid "facebook"
+msgstr "facebook"
+
+#: lib/customizer.php:239
+msgid "your facebook page or profile id"
+msgstr "l'identifiant de votre page ou profil Facebook"
+
+#: lib/customizer.php:245
+msgid "twitter"
+msgstr "twitter"
+
+#: lib/customizer.php:246
+msgid "your twitter account (@...)"
+msgstr "votre identifiant twitter (@...)"
+
+#: lib/customizer.php:254
+msgid "Edito title"
+msgstr "Titre de l'édito"
+
+#: lib/customizer.php:260
+msgid "Edito text"
+msgstr "Texte de l'édito"
+
+#: lib/customizer.php:270
+msgid "Author's photo"
+msgstr "Photo de l'auteur"
+
+#: lib/customizer.php:271
+msgid "Upload the picture of the author"
+msgstr "Envoyer la photo de l'auteur"
+
+#: lib/customizer.php:278
+msgid "signature"
+msgstr "signature"
+
+#: lib/customizer.php:288
+msgid "Edito's background image"
+msgstr "Image d'arrière plan de la section édito"
+
+#: lib/customizer.php:297
+msgid "Page 1"
+msgstr "Page 1"
+
+#: lib/customizer.php:298 lib/customizer.php:305 lib/customizer.php:312
+msgid "Choose the page you want to include in the slideshow"
+msgstr "Choisissez la page que vous voulez inclure dans le slideshow"
+
+#: lib/customizer.php:304
+msgid "Page 2"
+msgstr "Page 2"
+
+#: lib/customizer.php:311
+msgid "Page 3"
+msgstr "Page 3"
+
+#: lib/custompost.php:13
+msgctxt "Post Type General Name"
+msgid "Sections"
+msgstr ""
+
+#: lib/custompost.php:15
+msgctxt "Post Type Singular Name"
+msgid "Section"
+msgstr ""
+
+#: lib/custompost.php:17
+msgid "Sections de la page d'accueil"
+msgstr ""
+
+#: lib/custompost.php:19
+msgid "Toutes les sections"
+msgstr ""
+
+#: lib/custompost.php:20
+msgid "Voir les sections"
+msgstr ""
+
+#: lib/custompost.php:21
+msgid "Ajouter une nouvelle section"
+msgstr ""
+
+#: lib/custompost.php:22 lib/custompost.php:63
+msgid "Ajouter"
+msgstr ""
+
+#: lib/custompost.php:23
+msgid "Editer la section"
+msgstr ""
+
+#: lib/custompost.php:24
+msgid "Modifier la section"
+msgstr ""
+
+#: lib/custompost.php:25
+msgid "Rechercher une section"
+msgstr ""
+
+#: lib/custompost.php:26
+msgid "Non trouvée"
+msgstr ""
+
+#: lib/custompost.php:27
+msgid "Non trouvée dans la corbeille"
+msgstr ""
+
+#: lib/custompost.php:33
+msgid "sections"
+msgstr ""
+
+#: lib/custompost.php:34
+msgid "Tout sur les sections"
+msgstr ""
+
+#: lib/custompost.php:54
+msgctxt "Post Type General Name"
+msgid "Projets"
+msgstr ""
+
+#: lib/custompost.php:56
+msgctxt "Post Type Singular Name"
+msgid "Projet"
+msgstr ""
+
+#: lib/custompost.php:58
+msgid "Portfolio"
+msgstr ""
+
+#: lib/custompost.php:60
+msgid "Toutes les projets"
+msgstr ""
+
+#: lib/custompost.php:61
+msgid "Voir les projets"
+msgstr ""
+
+#: lib/custompost.php:62
+msgid "Ajouter un nouveau projet"
+msgstr ""
+
+#: lib/custompost.php:64
+msgid "Editer le projet"
+msgstr ""
+
+#: lib/custompost.php:65
+msgid "Modifier le projet"
+msgstr ""
+
+#: lib/custompost.php:66
+msgid "Rechercher un projet"
+msgstr ""
+
+#: lib/custompost.php:67
+msgid "Non trouvé"
+msgstr ""
+
+#: lib/custompost.php:68
+msgid "Non trouvé dans la corbeille"
+msgstr ""
+
+#: lib/custompost.php:74
+msgid "projets"
+msgstr ""
+
+#: lib/custompost.php:75
+msgid "Tout sur les projet"
+msgstr ""
+
+#: lib/custompost.php:120
+msgctxt "taxonomy general name"
+msgid "Catégories de projet"
+msgstr ""
+
+#: lib/custompost.php:121
+msgctxt "taxonomy singular name"
+msgid "Catégories de projet"
+msgstr ""
+
+#: lib/custompost.php:122
+msgid "Rechercher une catégorie de projet"
+msgstr ""
+
+#: lib/custompost.php:123
+msgid "Catégories populaires"
+msgstr ""
+
+#: lib/custompost.php:124
+msgid "Toutes les catégories"
+msgstr ""
+
+#: lib/custompost.php:125
+msgid "Editer une catégorie"
+msgstr ""
+
+#: lib/custompost.php:126
+msgid "Mettre à jour une catégorie"
+msgstr ""
+
+#: lib/custompost.php:127
+msgid "Ajouter une nouvelle catégorie"
+msgstr ""
+
+#: lib/custompost.php:128
+msgid "Nom de la nouvelle catégorie"
+msgstr ""
+
+#: lib/custompost.php:129
+msgid "Ajouter ou supprimer une catégorie"
+msgstr ""
+
+#: lib/custompost.php:130
+msgid "Choisir parmi les catégories les plus utilisées"
+msgstr ""
+
+#: lib/custompost.php:131
+msgid "Pas de catégories trouvées"
+msgstr ""
+
+#: lib/custompost.php:132
+msgid "Catégories de projet"
+msgstr ""
+
+#: lib/custompost.php:150
+msgctxt "taxonomy general name"
+msgid "Mots-clés de projet"
+msgstr ""
+
+#: lib/custompost.php:151
+msgctxt "taxonomy singular name"
+msgid "Mots-clés de projet"
+msgstr ""
+
+#: lib/custompost.php:152
+msgid "Rechercher un mot-clé de projet"
+msgstr ""
+
+#: lib/custompost.php:153
+msgid "Mots-clés populaires"
+msgstr ""
+
+#: lib/custompost.php:154
+msgid "Toutes les mots-clés"
+msgstr ""
+
+#: lib/custompost.php:155
+msgid "Editer un mot-clé"
+msgstr ""
+
+#: lib/custompost.php:156
+msgid "Mettre à jour un mot-clé"
+msgstr ""
+
+#: lib/custompost.php:157
+msgid "Ajouter un nouveau mot-clé"
+msgstr ""
+
+#: lib/custompost.php:158
+msgid "Nom de le nouveau mot-clé"
+msgstr ""
+
+#: lib/custompost.php:159
+msgid "Ajouter ou supprimer un mot-clé"
+msgstr ""
+
+#: lib/custompost.php:160
+msgid "Choisir parmi les mots-clés les plus utilisés"
+msgstr ""
+
+#: lib/custompost.php:161
+msgid "Pas de mots-clés trouvés"
+msgstr ""
+
+#: lib/custompost.php:162
+msgid "Mots-clés de projet"
+msgstr ""
+
+#: lib/extras.php:35
+msgid "Continued"
+msgstr "Suite"
+
+#: lib/extras.php:99
+msgid "Votre adresse mail"
+msgstr "Votre adresse mail"
+
+#: lib/extras.php:101
+msgid "S'abonner"
+msgstr "S'abonner"
+
+#: lib/extras.php:191
+msgid "Display your contact informations"
+msgstr "Afficher vos informations de contact"
+
+#: lib/extras.php:223 lib/extras.php:274 lib/extras.php:323 lib/extras.php:371
+msgid "Title:"
+msgstr "Titre :"
+
+#: lib/extras.php:241
+msgid "Follow Box"
+msgstr "Follow Bow"
+
+#: lib/extras.php:242
+msgid ""
+"un formulaire d'abonnement à la newsletter et les liens vers votre page "
+"Facebook, votre compte Twitter et le flux RSS"
+msgstr ""
+"un formulaire d'abonnement à la newsletter et les liens vers votre page "
+"Facebook, votre compte Twitter et le flux RSS"
+
+#: lib/extras.php:291
+msgid "Gallery"
+msgstr "Gallerie"
+
+#: lib/extras.php:292
+msgid "Display your last gallery posts"
+msgstr "Afficher vos derniers articles galerie"
+
+#: lib/extras.php:339
+msgid "Breadcrumb"
+msgstr "Fil d'Ariane"
+
+#: lib/extras.php:340
+msgid "Display a Breadcrumb"
+msgstr "Afficher un fil d'Ariane"
+
+#: lib/metaboxes.php:7 lib/metaboxes.php:16
+msgid "Images du projet"
+msgstr ""
+
+#: lib/metaboxes.php:31
+msgid "Informations about the project"
+msgstr "Informations concernant le projet"
+
+#: lib/metaboxes.php:40
+msgid "URL du site"
+msgstr ""
+
+#: lib/metaboxes.php:45
+msgid "Client"
+msgstr "Client"
+
+#: lib/setup.php:41
+msgid "Header Navigation"
+msgstr "Menu d'entête"
+
+#: lib/setup.php:42
+msgid "Header Home Navigation"
+msgstr "Menu d'entête de la page d'accueil"
+
+#: lib/setup.php:43
+msgid "Secondary Navigation"
+msgstr "Menu secondaire"
+
+#: lib/setup.php:119
+msgid "Primary"
+msgstr "Primaire"
+
+#: lib/setup.php:128
+msgid "Footer"
+msgstr "Pied de page"
+
+#: lib/setup.php:138
+msgid "Home Section 1"
+msgstr "Section 1 de la page d'accueil"
+
+#: lib/setup.php:148
+msgid "Home Section 2"
+msgstr "Section 2 de la page d'acceuil"
+
+#: lib/titles.php:12
+msgid "Latest Posts"
+msgstr "Articles Récents"
+
+#: lib/titles.php:17
+#, php-format
+msgid "Search Results for %s"
+msgstr "Résultats pour %s"
+
+#: lib/titles.php:19
+msgid "Not Found"
+msgstr "Non Trouvé"
+
+#: searchform.php:3
+msgid "Search for"
+msgstr "Rechercher"
+
+#: templates/comments.php:9
+#, php-format
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réponse à &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réponses à &ldquo;%2$s&rdquo;"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Commentaires anciens"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Commentaires récents &rarr;"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Commentaires fermés."
+
+#: templates/content-page.php:2 templates/content-single.php:18
+msgid "Pages:"
+msgstr "Pages:"
+
+#: templates/content-team-member.php:38
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalien vers< %s"
+
+#: templates/content-team-member.php:73
+#, php-format
+msgid "Read posts by %1$s"
+msgstr "Articles lu par %1$s"
+
+#: templates/content-team-member.php:78
+msgid "Email "
+msgstr "Mail "
+
+#: templates/content-team-member.php:83
+msgid "Tel: "
+msgstr "Tél : "
+
+#: templates/content.php:13
+msgid "Read the post"
+msgstr "Lire l'article"
+
+#: templates/entry-meta.php:23
+msgid "edit"
+msgstr "éditer"
+
+#: templates/feed-boxes.php:78 templates/feed-boxes.php:167
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "Il y a %s"
+
+#: templates/feed-boxes.php:83
+msgid "follow the link"
+msgstr "suivre le lien"
+
+#: templates/feed-boxes.php:91
+msgid ""
+"Error : To display this section, you have to set your facebook page or "
+"profile ID in \"dashboard\" > \"appearance\" > \"customize\" > \"my contact "
+"informations\"."
+msgstr ""
+"Erreur : Pour afficher cette section, vous devez configurer votre "
+"identifiant de page ou de profile Facebook  dans \"tableau de bord\" > "
+"\"apparence\" > \"personnaliser\" > \"mes informations de contact\"."
+
+#: templates/feed-boxes.php:172
+msgid "see the tweet"
+msgstr "voir le tweet"
+
+#: templates/feed-boxes.php:180
+msgid ""
+"Error : To display this section, you have to set your twitter account in "
+"\"dashboard\" > \"appearance\" > \"customize\" > \"my contact informations\"."
+msgstr ""
+"Erreur : Pour afficher cette section, vous devez configurer votre compte "
+"twitter dans \"tableau de bord\" > \"apparence\" > \"personnaliser\" > \"mes "
+"informations de contact\"."
+
+#: templates/header.php:69 templates/header.php:85
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/subscribeform.php:8
+msgid "Votre adresse email"
+msgstr "Votre adresse email"
+
+#: vendor/TwitterTextFormatter.php:28
+msgid "Retweeted by"
+msgstr "Retweeté par"
