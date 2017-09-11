@@ -65,18 +65,38 @@ function contact_shortcode( ) {
 add_shortcode( 'contactshortcode',  __NAMESPACE__ .'\\contact_shortcode' );
 
 // CONTACT-ICON shortcode
-function contact_icon_shortcode( ) {
-  
-   $myfb=get_theme_mod('contact_fb','');
-   $mytw=get_theme_mod('contact_tw','');
-   $myrss=get_bloginfo('rss2_url');
-  echo "<div class='contact-icon py-2'>";
-  if($myfb)  echo '<a class="btn btn-fb mr-2 my-0" href="https://www.facebook.com/'. $myfb .'" aria-label="Facebook"> <i class="fa fa-facebook" aria-hidden="false"></i> </a>' ;
-  if($mytw)  echo '<a class="btn btn-tw mr-2 my-0" href="https://www.twitter.com/'. $mytw .'" aria-label="Twitter"> <i class="fa fa-twitter" aria-hidden="false"></i> </a>' ;
-  echo '<a class="btn btn-rss mr-2 my-0" href="'. $myrss .'" aria-label="rss"><i class="fa fa-rss" aria-hidden="true"></i>
-</a>';
-  echo "</div>";
-}
+function contact_icon_shortcode( ) {?>
+            <div id="social-box" class="navbar-text">
+              <?php $fb_account = esc_attr(get_theme_mod( 'contact_fb','' )); ?>
+              <?php $tw_account = esc_attr(get_theme_mod( 'contact_tw','' )); ?>
+              <?php $li_account = esc_attr(get_theme_mod( 'contact_li','' )); ?>
+              <?php $git_account = esc_attr(get_theme_mod( 'contact_git','' )); ?>
+              <?php $myrss=get_bloginfo('rss2_url'); ?>
+                <?php if($fb_account){ ?>
+                <a class="btn btn-outline-primary" href="https://www.facebook.com/<?php  echo $fb_account; ?>" aria-label="Facebook" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a><?php } ?>
+
+                <?php if($tw_account){ ?>
+                <a class=" btn btn-outline-primary" href="https://www.twitter.com/<?php echo $tw_account; ?>" aria-label="Twitter" target="_blank">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <?php } ?>
+
+                 <?php if($li_account){ ?>
+                <a class=" btn btn-outline-primary" href="https://www.linkedin.com/in/<?php echo $li_account; ?>" aria-label="Linkedin" target="_blank">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <?php } ?>
+
+                 <?php if($git_account){ ?>
+                <a class=" btn btn-outline-primary" href="https://github.com/<?php echo $git_account; ?>" aria-label="github" target="_blank">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <?php } ?>
+              </div>  
+
+<?php }
 
 add_shortcode( 'contacticonshortcode', __NAMESPACE__ . '\\contact_icon_shortcode' );
 
@@ -204,7 +224,7 @@ class Contact extends \WP_Widget {
       echo $before_title . $title . $after_title;
     /* Début de notre script */
      echo do_shortcode('[contactshortcode]'); 
-     
+     echo do_shortcode('[contacticonshortcode]');
      echo $after_widget;    
     }
     function update($new_instance, $old_instance) {

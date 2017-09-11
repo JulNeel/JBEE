@@ -136,7 +136,11 @@ add_filter( 'customize_loaded_components', 'wpdocs_remove_widgets_panel' );
 		'sanitize_callback' => 'wp_kses_post'
 		)
 	); 
-
+	$wp_customize->add_setting('contact_git', array(
+		
+		'sanitize_callback' => 'wp_kses_post'
+		)
+	); 
 
 
 	$wp_customize->add_setting('edito_img', array(
@@ -245,12 +249,7 @@ add_filter( 'customize_loaded_components', 'wpdocs_remove_widgets_panel' );
 			'section'	=> 'my_contact',
 			'type'		=>'text'
 		));
-		$wp_customize->add_control('contact_li',array( 
-			'label'		=> __( 'linkedin', 'sage' ),
-			'description'=> __('your Linkedin profile id', 'sage'),
-			'section'	=> 'my_contact',
-			'type'		=>'text'
-		));
+
 		$wp_customize->add_control('contact_tw',array( 
 			'label'		=> __( 'twitter', 'sage' ),
 			'description'		=> __('your twitter account (@...)', 'sage'),
@@ -258,8 +257,18 @@ add_filter( 'customize_loaded_components', 'wpdocs_remove_widgets_panel' );
 			'type'		=> 'text'
 		));
  		
-
-
+		$wp_customize->add_control('contact_li',array( 
+			'label'		=> __( 'linkedin', 'sage' ),
+			'description'=> __('your Linkedin profile id', 'sage'),
+			'section'	=> 'my_contact',
+			'type'		=>'text'
+		));
+		$wp_customize->add_control('contact_git',array( 
+			'label'		=> __( 'Github', 'sage' ),
+			'description'=> __('your Github profile id', 'sage'),
+			'section'	=> 'my_contact',
+			'type'		=>'text'
+		));
 		$wp_customize->add_control('edito_title',array( 
 			'label' => __( 'Edito title', 'sage' ),
 			'section' => 'edito',

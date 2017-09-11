@@ -15,6 +15,7 @@
 		max-height: 500px;
 	}
 }
+
 #main-content-wrap {
 	
 	.home-section {
@@ -26,7 +27,9 @@
 			font-size:3.5rem;
 		}
 	}
-
+		.modal-wrap{
+			position: static;
+		} 
 	#en-quelques-mots {	
 		font-size: 1.3em;
 		font-weight:300;
@@ -44,10 +47,9 @@
 		.widgettitle{
 			font-size:1.5rem;
 		}
+
 	}
-	#me-contacter{
-		
-	}
+
 	#en-quelques-mots, #votre-projet-en-3-etapes, #me-contacter{
 		background: $white;
 	}

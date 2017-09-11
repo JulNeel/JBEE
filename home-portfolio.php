@@ -82,7 +82,7 @@ if ( ! empty( $projet_allcat_terms ) && ! is_wp_error( $projet_allcat_terms ) ){
 			</div>
 
 
-
+			<div class="modal-wrap">
 			<div class="modal fade" id="<?php echo $post_id ?>">
 				 <div class="modal-dialog modal-lg" role="document">
 				    <div class="modal-content">
@@ -157,7 +157,7 @@ if ( ! empty( $projet_allcat_terms ) && ! is_wp_error( $projet_allcat_terms ) ){
 				  </div>
 
 
-			</div>
+			</div></div>
 			
 		</div> <!--end porfolio-->
 	
